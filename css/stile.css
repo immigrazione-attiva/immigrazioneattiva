@@ -1,0 +1,441 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #ffffff;
+}
+
+header, footer {
+  background: linear-gradient(to right, #008C45, #ffffff, #CD212A);
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background: #ffffff;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 4px solid #008C45;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: #CD212A;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #008C45;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+iframe {
+  border: 0;
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.logo-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 0 30px;
+}
+
+.logo-header img:first-child {
+  height: 100px;
+}
+
+.logo-header h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #008C45;
+  margin: 0;
+}
+
+.logo-header img:last-child {
+  height: 80px;
+}
+.sfondo-verde {
+  background-color: #ace9bd; /* Verde chiaro */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+.sfondo-grigio {
+  background-color: #f2f2f2;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+/* === Sezione Missione === */
+.missione {
+  background-color: #f0f4f2;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 140, 69, 0.2);
+  text-align: center;
+}
+
+#missione {
+  text-align: center;
+}
+
+.missione h2 {
+  color: #CD212A;
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.missione-img {
+  display: block;
+  margin: 20px auto;
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.missione-box p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.missione-box ul {
+  list-style-type: square;
+  padding-left: 25px;
+  color: #007847;
+  margin-bottom: 15px;
+}
+.fondatrice {
+  background-color: #f0f4f2;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 140, 69, 0.2);
+  text-align: center;
+}
+
+.fondatrice h2 {
+  color: #CD212A;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.fondatrice p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.fondatrice img {
+  display: block;
+  margin: 20px auto;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* === Sezione Documenti Italiani (simile a Missione) === */
+#documenti-italiani {
+  background-color: #f0f4f2;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 140, 69, 0.2);
+  text-align: center;
+}
+
+#documenti-italiani h2 {
+  color: #CD212A;
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Sottotitoli dei documenti, come Codice Fiscale */
+.sottotitolo-documento {
+  color: #008C45;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Immagini centrate */
+.immagine-centrata {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.immagine-centrata img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.sfondo-permesso {
+  background-color: #e6f4ea; /* Verde chiaro */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 140, 69, 0.2);
+  margin: 20px auto;
+}
+
+.sfondo-permesso h2 {
+  color: #008C45;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sfondo-permesso p, .sfondo-permesso ul {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.sfondo-permesso ul {
+  padding-left: 20px;
+}
+
+.sfondo-permesso a {
+  color: #CD212A;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.sfondo-permesso a:hover {
+  text-decoration: underline;
+}
+/* Reset e font */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  background: linear-gradient(135deg, #e9f5ee, #ffffff, #fbeaec);
+  background-size: 300% 300%;
+  animation: tricoloreMove 18s ease infinite;
+  color: #333;
+}
+
+/* Animazione sfondo */
+@keyframes tricoloreMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #008C45, #ffffff, #CD212A);
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-header img {
+  height: 80px;
+}
+
+.logo-header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #222;
+  margin-top: 10px;
+}
+
+/* Nav */
+nav {
+  background-color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 4px solid #008C45;
+}
+
+nav a {
+  color: #CD212A;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* Sezioni */
+section {
+  background-color: rgba(255, 255, 255, 0.85);
+  margin: 20px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Titoli */
+h2.titolo-sezione {
+  color: #008C45;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Immagini centrali */
+.immagine-centrata {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.immagine-centrata img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* Liste */
+ul {
+  padding-left: 25px;
+  line-height: 1.6;
+}
+
+a {
+  color: #008C45;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  font-size: 0.9rem;
+  color: #444;
+}
+/* Blocco 1 - Informazioni generali sulla tessera */
+.box-ts-generale {
+  background-color: #e6f4ea; /* verde chiaro */
+  border-left: 6px solid #008C45;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+/* Blocco 2 - Iscrizione SSN per stranieri */
+.box-ts-stranieri {
+  background-color: #e0f7fa; /* azzurro chiaro */
+  border-left: 6px solid #0077b6;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+/* Blocco 3 - Link utili */
+.box-ts-link {
+  background-color: #f0f0f0; /* grigio chiaro */
+  border-left: 6px solid #999;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.box-ts-link ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.box-ts-link a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.box-ts-link a:hover {
+  text-decoration: underline;
+}
+.avviso-costruzione {
+  background-color: #a9df94;
+  color: #f24f1e;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid #ffeeba;
+  margin: 20px;
+  border-radius: 10px;
+}
+/* Stile base */
+.hamburger {
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: #CD212A;
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Mostra l'icona solo su mobile */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  nav#nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 0;
+  }
+
+  nav#nav-links.active {
+    display: flex;
+  }
+
+  nav#nav-links a {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+
+
+
